@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 12px;
+    background-color: #eee;
+}
+
+.head ul {
+    display: flex;
+    color: #666;
+
+}
+
+.head li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.head li i {
+    margin-right: 4px;
+    font-size: 14PX;
+}
+
+.head li img {
+    
+    margin-left: 4px;
+}
+
+.btn {
+    padding: 5px 14px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 12px;
+}
+
+.menudiv {
+    display: flex;
+}
+.menudiv li {
+    list-style: none;
+    margin: 4px 20px;
+}
+.menudiv li:hover {
+    border-bottom: 2px solid rgb(23, 222, 23);
+    color: rgb(0, 149, 255);
+}
+.menubtn {
+    color: white;
+    margin-right: 8px;
+    padding: 10px 27px;
+    border: none;
+    border-radius: 7px;
+    background-color: #0d6efd;   
+    transition: all ease 0.6s; 
+}
+.menubtn2 {
+    color: white;
+    padding: 10px 27px;
+    border-radius: 7px;
+    border: none;
+    background-color: #8dc63f;
+    transition: all ease 0.6s;
+}
+.menubtn:hover {
+       scale: 1.1;
+}
+.menubtn2:hover {
+    scale: 1.1;
+}
+.slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 12px;
+    background-image: url(https://www.saylaniwelfare.com/static/media/carousal_background.d77d94e41c5a71ae581f.png);
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; 
+  
+}
+.sliderdiv1 {
+    width: 50%;
+}
+.sliderdiv1 h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 45px;
+}
+.sliderdiv1 h2 span {
+    color: #8dc63f;
+}
+.sliderdiv1 h3 {
+    font-size: 25px;
+    font-weight: 420;
+    margin-top: 27px;
+    margin-bottom: 18px;
+}
+.sliderdiv1 p {
+    color: #4d4d4d;
+}
+.sliderdiv2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.sliderbtn {
+    font-size: large;
+    margin-top: 12px;
+    padding: 10px 18px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+}
+.sliderbtn i {
+    margin-left: 6px;   
+    font-size: 25px; 
+}
+.detaildiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e9fccf;
+    padding: 40px;
+    margin: 30px 0;
+}
+.inputdiv {
+    background-color: #424242;
+    border-radius: 12px;
+}
+.inputdiv input {
+    height: 53px;
+    padding: 15px 12px;
+}
+.General {
+    color: white;
+    font-size: 12px;
+    padding: 0 10px;
+}
+.rs {
+    color: white;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.detaildivchild {
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    color: #424242;
+    padding: 0 20px;
+    transition: all ease 0.4s;
+}
+.detaildivchild h2 {
+    font-size: 14px;
+}
+.detaildivchild:hover {
+    background-color: #424242;
+    color: white;
+    scale: 1.1;
+}
+.qdonatedivchild {
+    cursor: pointer;
+    background-color: #8dc63f;
+    border-radius: 12px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 25px;
+    transition: all ease 0.2s;
+}
+.qdonatedivchild:hover {
+    scale: 1.1;
+}
+.qdonatedivchild h2 {
+    font-size: 14px;
+}
+.banner {
+    padding: 5px 12px;
+}
+.banner img {
+    max-height: 560px;
+}
+.doing {
+    padding: 5px 12px;
+    text-align: center;
+    margin-top: 30px;
+}
+.doing h2{
+   font-size: 33px;
+   font-weight: 550;
+   margin-bottom: 20px;
+}
+.doingwelfare {
+    background-color: #e9fccf;
+    max-width: 300px;
+    padding: 30px 45px;
+}
+.doingchild {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
